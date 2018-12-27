@@ -6,9 +6,9 @@
     "request": "^2.88.0",
     "md5": "^2.0.0",
     "uuid": "^3.0.1",
-    "lodash": "^3.9.0",
     "redis": "^2.8.0",
-    "promise": "^8.0.2"
+    "promise": "^8.0.2",
+    "lodash": "^4.17.11"
   },
   "main": "index.js",
   "repository": {

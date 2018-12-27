@@ -3,13 +3,10 @@
   "version": "1.0.0",
   "description": "sdk for yly openapi",
   "dependencies": {
-    "form-urlencoded": ">=3.0.0",
     "request": "^2.88.0",
     "md5": "^2.0.0",
     "uuid": "^3.0.1",
     "lodash": "^3.9.0",
-    "aws-sdk": "^2.382.0",
-    "events": "1.1.1",
     "redis": "^2.8.0",
     "promise": "^8.0.2"
   },

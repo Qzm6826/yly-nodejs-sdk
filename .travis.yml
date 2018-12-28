@@ -5,4 +5,4 @@ node_js:
   - "node"
   - "lts/*"
 script:
-    - demo index --server
+    - node demo/index.js --server

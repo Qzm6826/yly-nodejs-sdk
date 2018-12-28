@@ -1,8 +1,7 @@
 language: node_js
 
 node_js:
-  - "iojs"
   - "node"
   - "lts/*"
 script:
-    - ember test --server
+    - node demo/index.js --server

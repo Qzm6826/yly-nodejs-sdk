@@ -5,4 +5,4 @@ node_js:
   - "node"
   - "lts/*"
 script:
-    - node demo/index.js --server
+    - ember test --server

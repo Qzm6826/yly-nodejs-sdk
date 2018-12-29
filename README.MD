@@ -18,7 +18,7 @@ node,npm
 2. 配置类config.js
 3. 授权类oauth_client.js，获取调用凭证AccessToken，每日上限次数２０次，２４小时后更新次数
 4. 接口调用类rpc_client.js，可以直接用这个类直接进行接口调用
-5. 若觉的好用，大佬们请在<a href= 'https://github.com/Qzm6826/yly-nodejs-sdk'>GitHub</a>上给小曲一个Star，在此小曲先感谢各位大佬了，小曲也会时长更新接口的，为大佬们提供方便！
+5. 若觉的好用，大佬们请在<a href= 'https://github.com/Qzm6826/yly-nodejs-sdk'>GitHub</a>上给子陌一个Star，在此子陌先感谢各位大佬，抱拳！子陌也会时长更新接口的，为大佬们提供方便！
 
 
 ### 第1步引入sdk

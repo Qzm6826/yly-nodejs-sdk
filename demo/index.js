@@ -158,7 +158,8 @@ var oauthClient = new yly.OauthClinet(config);*/
         'Volume' : 0.0,
         'Remark' : '小心轻放'
     };
-    ExpressPrint.index(machineCode, content, 'orderNo23333').then(function(res){
+    var sandbox = 1;
+    ExpressPrint.index(machineCode, content, 'orderNo23333', sandbox).then(function(res){
         console.log(res);
     });
 });*/

@@ -3,12 +3,12 @@ var yly = require("../index");
 var _ = require('lodash');
 var redis = require("redis");
 var repeat = require('repeat-string');
-// const MRedis = redis.createClient(6379, 'localhost');
-console.log("Hello World");
-/*var config = new yly.Config({
+/*const MRedis = redis.createClient(6379, 'localhost');
+var config = new yly.Config({
     'cid' : '',         //应用id
     'secret' : ''       //应用秘钥
 });
+config.setUrl('https://open-api.10ss.net/v2');
 var oauthClient = new yly.OauthClinet(config);*/
 
 /**
@@ -68,7 +68,7 @@ var oauthClient = new yly.OauthClinet(config);*/
     content += repeat('*', 32);
     content += "订单总价:￥78 \n";
     content += "<FS2><center>**#1 完**</center></FS2>";
-    Print.index(machineCode, 'orderNo23333', content).then(function(res){
+    Print.index(machineCode, 'orderNo23333', content, 1).then(function(res){
         console.log(res);
     });
 });*/

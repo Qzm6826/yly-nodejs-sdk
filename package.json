@@ -1,6 +1,6 @@
 {
   "name": "yly-nodejs-sdk",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "sdk for yly openapi",
   "dependencies": {
     "js-md5": "^0.7.3",

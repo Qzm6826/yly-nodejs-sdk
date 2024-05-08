@@ -75,6 +75,9 @@ Print.index(machineCode, originId, content).then(function(res){
 ```
 
 # ChangeLog
+#### [v2.0.4]
+* Release Date : 2024-05-08
+1. [Feature] printer/pushswitch api 新增mode字段
 #### [v2.0.3]
 * Release Date : 2023-11-01
 1. [Feature]v2新增[K8推送开关设置](https://www.kancloud.cn/ly6886/oauth-api/3208323)接口。

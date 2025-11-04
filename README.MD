@@ -74,7 +74,22 @@ Print.index(machineCode, originId, content).then(function(res){
 });
 ```
 
+## API Endpoints
+
+详细API文档请参考:
+
+- [Token获取与刷新](docs/api/token.md) - 获取和刷新access_token调用凭证
+- [push](docs/api/oauth.md) - 设置推送URL
+- [打印接口](docs/api/print.md) - 打印文本、图片等内容
+- [图片打印](docs/api/picture_print.md) - 打印图片接口
+- [快递打印](docs/api/express_print.md) - 打印快递面单
+- [打印菜单](docs/api/print_menu.md) - 打印菜单接口
+- [打印机管理](docs/api/printer.md) - 打印机相关管理接口
+
 # ChangeLog
+#### [v2.0.5]
+* Release Date : 2025-11-04
+1. [Feature] 补全开放型应用下扫码授权模式，修护取消面单bug，更新SDK使用文档
 #### [v2.0.4]
 * Release Date : 2024-05-08
 1. [Feature] printer/pushswitch api 新增mode字段
